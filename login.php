@@ -1,4 +1,11 @@
-. <!DOCTYPE html>
+<?php
+require("includes/common.php");
+// Redirects the user to products page if logged in.
+if (isset($_SESSION['email'])) {
+    header('location: products.php');
+}
+?>
+<!DOCTYPE html>
 <html lang="en">
 
     <head>
@@ -13,7 +20,7 @@
     </head>
 
     <body>
-        
+        <?php include 'includes/header.php'; ?>
         <div id="content">
             <div class="container-fluid decor_bg" id="login-panel">
                 <div class="row">
@@ -41,5 +48,6 @@
                 </div>
             </div>
         </div>
+        <?php include 'includes/footer.php'; ?>
     </body>
 </html>
