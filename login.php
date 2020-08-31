@@ -50,3 +50,4 @@ if (isset($_SESSION['email'])) {
         </div>
         <?php include 'includes/footer.php'; ?>
     </body>
+</html>
