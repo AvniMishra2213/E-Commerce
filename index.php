@@ -58,5 +58,42 @@ if (isset($_SESSION['email'])) {
                             </div> 
                         </a>
                     </div>
+                                 <div class="col-sm-4">
+                        <a href="products.php#watches" >
+                            <div class="thumbnail">
+                                <img src="img/26.jpg" alt="" ">
+                                <div class="caption">
+                                    <h3>Watches</h3>
+                                    <p>Original watches from the best brands.</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <a href="products.php#shirts" >
+                            <div class="thumbnail">
+                                <img src="img/27.jpg" alt="" >
+                                <div class="caption">
+                                    <h3>Dresses</h3>
+                                    <p>Our exquisite collection of dresses.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Item categories listing end-->
+        </div>
+        
+        <!--Footer-->
+        <?php
+        include 'includes/footer.php';
+        ?>
+        <!--Footer end-->
+   
+    </body> 
+</html>
 
      
