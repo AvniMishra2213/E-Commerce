@@ -50,7 +50,7 @@ if (isset($_SESSION['email'])) {
                     <div class="col-sm-4">
                         <a href="products.php#cameras" >
                             <div class="thumbnail">
-                                <img src="img/1.jpg" alt="">
+                                <img src="img/28.jpg" alt="">
                                 <div class="caption">
                                     <h3>Cameras</h3>
                                     <p>Choose among the best available in the world.</p>
@@ -59,40 +59,4 @@ if (isset($_SESSION['email'])) {
                         </a>
                     </div>
 
-                    <div class="col-sm-4">
-                        <a href="products.php#watches" >
-                            <div class="thumbnail">
-                                <img src="img/10.jpg" alt="">
-                                <div class="caption">
-                                    <h3>Watches</h3>
-                                    <p>Original watches from the best brands.</p>
-                                </div>
-                            </div> 
-                        </a>
-                    </div>
-
-                    <div class="col-sm-4">
-                        <a href="products.php#shirts" >
-                            <div class="thumbnail">
-                                <img src="img/13.jpg" alt="">
-                                <div class="caption">
-                                    <h3>Shirts</h3>
-                                    <p>Our exquisite collection of shirts.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <!--Item categories listing end-->
-        </div>
-        
-        <!--Footer-->
-        <?php
-        include 'includes/footer.php';
-        ?>
-        <!--Footer end-->
-   
-    </body> 
-</html>
+     
