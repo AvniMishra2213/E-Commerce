@@ -8,7 +8,7 @@ if (isset($_SESSION['email'])) {
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+    <head> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Login | Life Style Store</title>
